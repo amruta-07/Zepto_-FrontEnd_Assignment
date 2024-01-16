@@ -1,0 +1,26 @@
+
+.suggestion-modal {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 1;
+  }
+  
+  .suggested-item {
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .user-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
